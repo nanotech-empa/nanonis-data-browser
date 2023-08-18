@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "nanonis_data_browser"
+version = "0.1.0"
+description = "A complex browser for Nanonis data files."
+
+dependencies = [
+    "ipywidgets~=8.0",
+]
